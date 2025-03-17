@@ -15,7 +15,7 @@ const ListProduct = () => {
    }, [])
 
    const remove_product = async (id) => {
-      await fetch('http://localhost:4000/removeproduct', {
+      await fetch('https://e-commerce-website-using-mern-w5l9.onrender.com/removeproduct', {
          method: 'POST',
          headers: {
             Accept: 'application/json',
